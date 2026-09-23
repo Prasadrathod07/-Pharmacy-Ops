@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 40px 20px;
+  text-align: center;
+  color: var(--color-text-secondary);
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.description {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  max-width: 360px;
+}
+
+.errorIcon {
+  color: var(--color-danger);
+}

@@ -1,0 +1,39 @@
+.shell {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  padding: 24px 28px;
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 640px) {
+  .content {
+    padding: 16px;
+  }
+}
+
+.backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(16, 21, 31, 0.4);
+  z-index: 790;
+}
+
+@media (max-width: 860px) {
+  .backdropVisible {
+    display: block;
+  }
+}
